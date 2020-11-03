@@ -1,0 +1,90 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  Lab3Part2
+* Top Cell Name: RCA16bit
+* View Name:     schematic
+* Netlisted on:  May 22 00:30:21 2020
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: Lab3Part2
+* Cell Name:    FullAdderMirror
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT FullAdderMirror A B CIN COUT GND SUM VDD
+*.PININFO A:I B:I CIN:I GND:I VDD:I COUT:O SUM:O
+MM28 SUM SUM_INV GND GND NMOS_VTL W=90n L=50n m=1
+MM25 COUT COUT_INV GND GND NMOS_VTL W=90n L=50n m=1
+MM31 net50 B GND GND NMOS_VTL W=270.0n L=50n m=1
+MM30 net51 A net50 GND NMOS_VTL W=270.0n L=50n m=1
+MM32 net31 B GND GND NMOS_VTL W=180.0n L=50n m=1
+MM33 net31 COUT_INV SUM_INV GND NMOS_VTL W=180.0n L=50n m=1
+MM29 SUM_INV CIN net51 GND NMOS_VTL W=270.0n L=50n m=1
+MM35 GND CIN net31 GND NMOS_VTL W=180.0n L=50n m=1
+MM34 GND A net31 GND NMOS_VTL W=180.0n L=50n m=1
+MM4 net16 A GND GND NMOS_VTL W=180.0n L=50n m=1
+MM3 GND B net16 GND NMOS_VTL W=180.0n L=50n m=1
+MM2 net16 CIN COUT_INV GND NMOS_VTL W=180.0n L=50n m=1
+MM1 COUT_INV B net55 GND NMOS_VTL W=180.0n L=50n m=1
+MM0 net55 A GND GND NMOS_VTL W=180.0n L=50n m=1
+MM27 SUM SUM_INV VDD VDD PMOS_VTL W=180.0n L=50n m=1
+MM26 COUT COUT_INV VDD VDD PMOS_VTL W=180.0n L=50n m=1
+MM16 net32 COUT_INV SUM_INV VDD PMOS_VTL W=360.0n L=50n m=1
+MM15 VDD CIN net32 VDD PMOS_VTL W=360.0n L=50n m=1
+MM14 VDD A net32 VDD PMOS_VTL W=360.0n L=50n m=1
+MM13 net32 B VDD VDD PMOS_VTL W=360.0n L=50n m=1
+MM12 SUM_INV CIN net53 VDD PMOS_VTL W=540.0n L=50n m=1
+MM11 net53 A net52 VDD PMOS_VTL W=540.0n L=50n m=1
+MM10 net52 B VDD VDD PMOS_VTL W=540.0n L=50n m=1
+MM9 net17 A VDD VDD PMOS_VTL W=360.0n L=50n m=1
+MM8 VDD B net17 VDD PMOS_VTL W=360.0n L=50n m=1
+MM7 net17 CIN COUT_INV VDD PMOS_VTL W=360.0n L=50n m=1
+MM6 net54 A VDD VDD PMOS_VTL W=360.0n L=50n m=1
+MM5 COUT_INV B net54 VDD PMOS_VTL W=360.0n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: Lab3Part2
+* Cell Name:    RCA16bit
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT RCA16bit A<15> A<14> A<13> A<12> A<11> A<10> A<9> A<8> A<7> A<6> A<5> 
++ A<4> A<3> A<2> A<1> A<0> B<15> B<14> B<13> B<12> B<11> B<10> B<9> B<8> B<7> 
++ B<6> B<5> B<4> B<3> B<2> B<1> B<0> CIN COUT GND SUM<15> SUM<14> SUM<13> 
++ SUM<12> SUM<11> SUM<10> SUM<9> SUM<8> SUM<7> SUM<6> SUM<5> SUM<4> SUM<3> 
++ SUM<2> SUM<1> SUM<0> VDD
+*.PININFO A<15>:I A<14>:I A<13>:I A<12>:I A<11>:I A<10>:I A<9>:I A<8>:I A<7>:I 
+*.PININFO A<6>:I A<5>:I A<4>:I A<3>:I A<2>:I A<1>:I A<0>:I B<15>:I B<14>:I 
+*.PININFO B<13>:I B<12>:I B<11>:I B<10>:I B<9>:I B<8>:I B<7>:I B<6>:I B<5>:I 
+*.PININFO B<4>:I B<3>:I B<2>:I B<1>:I B<0>:I CIN:I GND:I VDD:I COUT:O 
+*.PININFO SUM<15>:O SUM<14>:O SUM<13>:O SUM<12>:O SUM<11>:O SUM<10>:O SUM<9>:O 
+*.PININFO SUM<8>:O SUM<7>:O SUM<6>:O SUM<5>:O SUM<4>:O SUM<3>:O SUM<2>:O 
+*.PININFO SUM<1>:O SUM<0>:O
+XI2 A<2> B<2> net14 net16 GND SUM<2> VDD / FullAdderMirror
+XI15 A<15> B<15> net4 COUT GND SUM<15> VDD / FullAdderMirror
+XI14 A<14> B<14> net2 net4 GND SUM<14> VDD / FullAdderMirror
+XI13 A<13> B<13> net3 net2 GND SUM<13> VDD / FullAdderMirror
+XI12 A<12> B<12> net7 net3 GND SUM<12> VDD / FullAdderMirror
+XI11 A<11> B<11> net5 net7 GND SUM<11> VDD / FullAdderMirror
+XI10 A<10> B<10> net6 net5 GND SUM<10> VDD / FullAdderMirror
+XI9 A<9> B<9> net8 net6 GND SUM<9> VDD / FullAdderMirror
+XI8 A<8> B<8> net9 net8 GND SUM<8> VDD / FullAdderMirror
+XI7 A<7> B<7> net10 net9 GND SUM<7> VDD / FullAdderMirror
+XI6 A<6> B<6> net11 net10 GND SUM<6> VDD / FullAdderMirror
+XI5 A<5> B<5> net13 net11 GND SUM<5> VDD / FullAdderMirror
+XI4 A<4> B<4> net12 net13 GND SUM<4> VDD / FullAdderMirror
+XI3 A<3> B<3> net16 net12 GND SUM<3> VDD / FullAdderMirror
+XI0 A<0> B<0> CIN net15 GND SUM<0> VDD / FullAdderMirror
+XI1 A<1> B<1> net15 net14 GND SUM<1> VDD / FullAdderMirror
+.ENDS
+

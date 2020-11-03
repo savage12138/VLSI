@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      ywang3325
+HostName                       root
+ProcessIdentifier              5122
+ProcessCreationTime_UTC        1604088291
+ProcessCreationTime_Readable   Fri Oct 30 16:04:51 2020 EDT
+AppIdentifier                  /tools/cadence/ic617newer/tools/dfII/bin/64bit/libManager
+OSType                         lnx86
+ReasonForPlacingEditLock       log file
+FilePathUsedToEditLock         /home/ywang3325/Desktop/ece3150/libManager.log
+TimeEditLocked                 Fri Oct 30 16:04:51 2020 EDT

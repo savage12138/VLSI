@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /nethome/ywang3325/ece3150
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT oai22_1x.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /nethome/ywang3325/ece3150/oai22_1x.src.net
+lvs_LvsOutFile RULES_FILE /nethome/ywang3325/ece3150/_calibreLVS.rul_
+lvs_LvsRunTimes 1580492633 1580492633

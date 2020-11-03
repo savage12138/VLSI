@@ -1,0 +1,52 @@
+****** HSPICE -- O-2018.09-SP1 linux64 (Nov 25 2018) ******
+ Input File: testbench.sp
+ lic:
+ lic: FLEXlm: SDK_11.6.9.6
+ lic: USER:   ywang3325            HOSTNAME: ece-linlabsrv01.ece.gatech.edu
+ lic: HOSTID: "e4434b4bff8e"       PID:      37075
+ lic: Using FLEXlm license file:
+ lic: 1910@ece-winlic.ece.gatech.edu
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 12-dec-2020/2019.06
+ lic: 1(in_use)/50(total) FLOATING license(s) on SERVER 1910@ece-winlic.ece.gatech.edu
+ lic:
+ init: begin read circuit files, cpu clock= 2.60E-01
+       option search = /tools/synopsys/hspice/O-2018.09-SP1/hspice/part
+                         s/ad
+       option runlvl
+       option accurate =     1.00
+       option runlvl =     5.00
+       option measdgt =     6.00
+       option measout
+       option gmindc =    1.000E-18
+       option probe
+       option post =     2.00
+       option ingold =     1.00
+       option captab
+       option lis_new =     1.00
+       option probe
+       option post
+ init: end read circuit files, cpu clock= 2.60E-01 peak memory=     335 mb
+ init: begin check errors, cpu clock= 2.60E-01
+ init: end check errors, cpu clock= 2.70E-01 peak memory=     336 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 2.70E-01
+       establish matrix -- done, cpu clock= 2.70E-01 peak memory=     336 mb
+       re-order matrix -- done, cpu clock= 2.80E-01 peak memory=     336 mb
+ init: end setup matrix, cpu clock= 2.80E-01 peak memory=     336 mb
+ dcop: begin dcop, cpu clock= 2.80E-01
+ dcop: end dcop, cpu clock= 2.80E-01 peak memory=     336 mb tot_iter=       8
+ output: testbench.mt0
+ sweep: tran tran0    begin, stop_t=  2.00E-10 #sweeps= 201 cpu clock= 2.90E-01
+ tran: time= 2.0673E-11 tot_iter=      28 conv_iter=      12 cpu clock= 2.90E-01
+ tran: time= 4.1274E-11 tot_iter=      62 conv_iter=      22 cpu clock= 2.90E-01
+ tran: time= 6.1849E-11 tot_iter=      99 conv_iter=      37 cpu clock= 2.90E-01
+ tran: time= 8.5285E-11 tot_iter=     106 conv_iter=      40 cpu clock= 2.90E-01
+ tran: time= 1.0000E-10 tot_iter=     111 conv_iter=      42 cpu clock= 2.90E-01
+ tran: time= 1.2001E-10 tot_iter=     151 conv_iter=      58 cpu clock= 2.90E-01
+ tran: time= 1.4119E-10 tot_iter=     208 conv_iter=      80 cpu clock= 2.90E-01
+ tran: time= 1.6259E-10 tot_iter=     218 conv_iter=      84 cpu clock= 2.90E-01
+ tran: time= 1.8576E-10 tot_iter=     245 conv_iter=      95 cpu clock= 2.90E-01
+ tran: time= 2.0000E-10 tot_iter=     268 conv_iter=     103 cpu clock= 2.90E-01
+ sweep: tran tran0    end, cpu clock= 2.90E-01 peak memory=     336 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

@@ -1,0 +1,16 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "RCA16bit"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/ywang3325/Desktop/ece3150"
+ )
+( model
+( "Lab3Part2/FullAdderMirror/schematic" "FullAdderMirror" )
+( "Lab3Part2/RCA16bit/schematic" "RCA16bit" )
+ )
+( "FullAdderMirror" "ihnl/cds0/map" )
+( "RCA16bit" "ihnl/cds1/map" )
+ )

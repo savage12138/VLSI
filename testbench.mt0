@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='O-2018.09-SP1 linux64' PARAM_COUNT=0
+.TITLE 'inv_1x hspice simulation deck'
+ p2pvalfall       p2pvalrise       delay            fall_time       
+ rise_time        temper           alter#          
+    0.911013         0.908229       1.15882e-11      1.62524e-11    
+  1.48467e-11       25.000000      1               

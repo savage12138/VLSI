@@ -1,0 +1,8 @@
+//OK 
+//NUMBER_OF_HEADER_LINES: 6
+//VERSION: 1
+//TOKEN_DELIMITER: "
+//TOKEN_SEPARATOR: " "
+//FORMAT: "time" "calibre version" "command line"
+"Fri Mar  6 11:46:00 2020 " "v2017.2_16.14" "-xrc -pdb -rcc -turbo 1 /nethome/ywang3325/ece3150/_calibrexRC.rul_"
+"Fri Mar  6 11:46:03 2020 " "v2017.2_16.14" "-xrc -fmt -all /nethome/ywang3325/ece3150/_calibrexRC.rul_"

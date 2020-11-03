@@ -1,0 +1,22 @@
+*drcRulesFile: $PDK_DIR/ncsu_basekit/techfile/calibre/calibreDRC.rul
+*drcRulesFileLastLoad: 1585872677
+*drcRunDir: /home/ywang3325/Desktop/ece3150
+*drcLayoutPaths: RCA16bit.calibre.db
+*drcLayoutPrimary: RCA16bit
+*drcLayoutLibrary: Lab3Part2
+*drcLayoutView: layout
+*drcLayoutGetFromViewer: 1
+*drcResultsFile: RCA16bit.drc.results
+*drcCellName: 0
+*drcSummaryFile: RCA16bit.drc.summary
+*drcIncrDRCSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*drcIncrDRCLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*drcIncrDRCGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnWarnLayoutOverwrite: 0
+*cmnPromptSaveRunset: 0
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibrary: Lab3Part2
+*cmnFDILayoutView: layout
+*cmnFDIDEFLayoutPath: RCA16bit.def

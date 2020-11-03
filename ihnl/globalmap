@@ -1,0 +1,9 @@
+CADENCE IHNL11140
+$model
+Lab3Part2/RCA16bit/schematic RCA16bit
+Lab3Part2/FullAdderMirror/schematic FullAdderMirror
+$endmodel
+$net
+$endnet
+$param
+$endparam

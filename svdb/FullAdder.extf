@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1586482198 1586482200
+lvs_ExtOutFile RUNDIR /home/ywang3325/Desktop/ece3150
+lvs_ExtOutFile RULES_FILE /home/ywang3325/Desktop/ece3150/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 8 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/ywang3325/Desktop/ece3150/FullAdder.sp
+lvs_ExtOutFile EXTRACTION_REPORT FullAdder.lvs.report.ext

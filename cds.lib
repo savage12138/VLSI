@@ -1,0 +1,11 @@
+DEFINE analogLiDEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE US_8ths   $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+DEFINE basic     $CDSHOME/tools/dfII/etc/cdslib/basic
+DEFINE cdsDefTechLib $CDSHOME/tools/dfII/etc/cdsDefTechLib
+DEFINE NCSU_TechLib_FreePDK45  $PDK_DIR/ncsu_basekit/lib/NCSU_TechLib_FreePDK45
+DEFINE NCSU_Devices_FreePDK45  $PDK_DIR/ncsu_basekit/lib/NCSU_Devices_FreePDK45
+DEFINE sandbox /home/ywang3325/Desktop/ece3150/sandbox
+DEFINE avTech /tools/cadence/assura617/tools.lnx86/assura/etc/avtech/avTech
+DEFINE avTech /tools/cadence/assura617hf/tools.lnx86/assura/etc/avtech/avTech
+DEFINE Lab3Part1 /home/ywang3325/Desktop/ece3150/Lab3Part1
+DEFINE Lab3Part2 /home/ywang3325/Desktop/ece3150/Lab3Part2

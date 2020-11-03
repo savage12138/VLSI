@@ -1,0 +1,24 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.33s.
+
+*INFO* (icLic-302) License Virtuoso_Schematic_Editor_XL ("Schematics XL") was used to run Schematics L.
+
+*WARNING* '/home/ywang3325/Desktop/ece3150/cds.lib', Line 1: Skipping: '$CDSHOME/tools/dfII/etc/cdslib/artist/analogLib'
+
+*WARNING* LIB avTech from File /home/ywang3325/Desktop/ece3150/cds.lib Line 9 redefines
+LIB avTech from the same file (defined earlier.)
+
+*WARNING* The directory: '/home/ywang3325/Desktop/ece3150/analogLib' does not exist
+	but was defined in libFile '/home/ywang3325/Desktop/ece3150/cds.lib' for Lib 'analogLiDEFINE'.
+*WARNING* '/home/ywang3325/Desktop/ece3150/cds.lib', Line 1: Skipping: '$CDSHOME/tools/dfII/etc/cdslib/artist/analogLib'
+
+*WARNING* LIB avTech from File /home/ywang3325/Desktop/ece3150/cds.lib Line 9 redefines
+LIB avTech from the same file (defined earlier.)
+
+*WARNING* The directory: '/home/ywang3325/Desktop/ece3150/analogLib' does not exist
+	but was defined in libFile '/home/ywang3325/Desktop/ece3150/cds.lib' for Lib 'analogLiDEFINE'.
+
+Running Artist Hierarchical Netlisting ...
+
+Loading cdf.cxt 
+End netlisting May 22 00:30:21 2020
+

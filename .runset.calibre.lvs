@@ -1,0 +1,27 @@
+*lvsRulesFile: $PDK_DIR/ncsu_basekit/techfile/calibre/calibreLVS.rul
+*lvsRunDir: /home/ywang3325/Desktop/ece3150
+*lvsLayoutPaths: RCA16bit.calibre.db
+*lvsLayoutPrimary: RCA16bit
+*lvsLayoutLibrary: Lab3Part2
+*lvsLayoutView: layout
+*lvsLayoutGetFromViewer: 1
+*lvsSourcePath: RCA16bit.src.net
+*lvsSourcePrimary: RCA16bit
+*lvsSourceLibrary: Lab3Part2
+*lvsSourceView: schematic
+*lvsSourceGetFromViewer: 1
+*lvsSpiceFile: RCA16bit.sp
+*lvsERCDatabase: RCA16bit.erc.results
+*lvsERCSummaryFile: RCA16bit.erc.summary
+*lvsReportFile: RCA16bit.lvs.report
+*cmnWarnLayoutOverwrite: 0
+*cmnWarnSourceOverwrite: 0
+*cmnPromptSaveRunset: 0
+*cmnShowOptions: 1
+*cmnVConnectNamesState: ALL
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibrary: Lab3Part2
+*cmnFDILayoutView: layout
+*cmnFDIDEFLayoutPath: RCA16bit.def

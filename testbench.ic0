@@ -1,0 +1,39 @@
+* "simulator" "HSPICE" 
+* "version" "O-2018.09-SP1 linux64"
+* "format" "HSP"
+* "rundate" "20:30:55 03/06/2020 "
+* "netlist" "testbench.sp "
+* "runtitle" "inv_1x hspice simulation deck"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-18       
+.nodeset
++ a =   0.            
++ vdd! =   0.9000        
++ vss! =   0.            
++ z =   0.9000        
++ xinv_1x0.n_a_c_3_p = 6.464e-08       
++ xinv_1x0.n_a_mm0_g = 8.851e-08       
++ xinv_1x0.n_a_mm1_g = 6.551e-08       
++ xinv_1x0.n_vdd!_c_27_n =   0.9000        
++ xinv_1x0.n_vdd!_c_31_n =   0.9000        
++ xinv_1x0.n_vdd!_mm0_b =   0.9000        
++ xinv_1x0.n_vdd!_mm0_s =   0.9000        
++ xinv_1x0.n_vss!_c_16_n = 8.655e-09       
++ xinv_1x0.n_vss!_c_20_p = 4.471e-18       
++ xinv_1x0.n_vss!_mm1_b = 3.710e-17       
++ xinv_1x0.n_vss!_mm1_s = 1.401e-08       
++ xinv_1x0.n_z_mm0_d =   0.9000        
++ xinv_1x0.n_z_mm1_d =   0.9000        
++ xinv_1x0.x_pm_inv_1x_a.1 = 6.470e-08       
++ xinv_1x0.x_pm_inv_1x_a.5 = 6.592e-08       
++ xinv_1x0.x_pm_inv_1x_a.13 = 6.025e-08       
++ xinv_1x0.x_pm_inv_1x_vss!.10 = 7.600e-09       
++ xinv_1x0.x_pm_inv_1x_vss!.11 = 6.964e-10       
++ xinv_1x0.x_pm_inv_1x_vss!.12 = 8.929e-09       
++ xinv_1x0.x_pm_inv_1x_vdd!.10 =   0.9000        
++ xinv_1x0.x_pm_inv_1x_vdd!.11 =   0.9000        
++ xinv_1x0.x_pm_inv_1x_vdd!.12 =   0.9000        
+***   END: Saved Operating Point ***                     

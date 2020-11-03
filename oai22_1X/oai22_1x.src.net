@@ -1,0 +1,38 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  sandbox
+* Top Cell Name: oai22_1x
+* View Name:     schematic
+* Netlisted on:  Jan 31 12:43:51 2020
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL gnd!
++        vdd!
+
+*.PIN gnd!
+*+    vdd!
+
+************************************************************************
+* Library Name: sandbox
+* Cell Name:    oai22_1x
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT oai22_1x A B C D F gnd! vdd!
+*.PININFO A:I B:I C:I D:I gnd!:I vdd!:I F:O
+MM11 net13 C gnd! gnd! NMOS_VTL W=90n L=50n
+MM6 net13 D gnd! gnd! NMOS_VTL W=90n L=50n
+MM10 F B net13 gnd! NMOS_VTL W=90n L=50n
+MM1 F A net13 gnd! NMOS_VTL W=90n L=50n
+MM8 net18 C vdd! vdd! PMOS_VTL W=90n L=50n
+MM9 F D net18 vdd! PMOS_VTL W=90n L=50n
+MM4 F B net19 vdd! PMOS_VTL W=90n L=50n
+MM2 net19 A vdd! vdd! PMOS_VTL W=90n L=50n
+.ENDS
+

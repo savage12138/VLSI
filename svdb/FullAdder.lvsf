@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/ywang3325/Desktop/ece3150
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT FullAdder.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/ywang3325/Desktop/ece3150/FullAdder.src.net
+lvs_LvsOutFile RULES_FILE /home/ywang3325/Desktop/ece3150/_calibreLVS.rul_
+lvs_LvsRunTimes 1586482200 1586482200

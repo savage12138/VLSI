@@ -1,0 +1,29 @@
+* File: inv_1x.pex.netlist.INV_1X.pxi
+* Created: Fri Mar  6 11:46:03 2020
+* 
+x_PM_INV_1X_A N_A_MM1_g N_A_MM0_g A N_A_c_3_p PM_INV_1X_A
+x_PM_INV_1X_VSS! N_VSS!_MM1_s N_VSS!_MM1_b N_VSS!_c_20_p VSS! N_VSS!_c_16_n
++ PM_INV_1X_VSS!
+x_PM_INV_1X_VDD! N_VDD!_MM0_s N_VDD!_MM0_b N_VDD!_c_31_n VDD! N_VDD!_c_27_n
++ PM_INV_1X_VDD!
+x_PM_INV_1X_Z N_Z_MM1_d N_Z_MM0_d Z PM_INV_1X_Z
+cc_1 N_A_MM1_g N_VSS!_MM1_s 0.00112903f
+cc_2 A N_VSS!_MM1_s 0.00592792f
+cc_3 N_A_c_3_p N_VSS!_MM1_s 2.18537e-19
+cc_4 N_A_MM1_g N_VSS!_c_16_n 0.00154325f
+cc_5 A N_VSS!_c_16_n 7.31273e-19
+cc_6 N_A_MM0_g N_VDD!_MM0_s 0.00282105f
+cc_7 A N_VDD!_MM0_s 0.00506329f
+cc_8 N_A_c_3_p N_VDD!_MM0_s 2.13032e-19
+cc_9 N_A_MM0_g N_VDD!_c_27_n 0.00175277f
+cc_10 A N_VDD!_c_27_n 5.52887e-19
+cc_11 N_A_MM1_g N_Z_MM1_d 0.00472593f
+cc_12 A N_Z_MM1_d 0.0128328f
+cc_13 N_VSS!_MM1_s N_VDD!_MM0_s 8.70113e-19
+cc_14 N_VSS!_MM1_b N_VDD!_MM0_b 0.00188524f
+cc_15 N_VSS!_c_20_p N_VDD!_c_31_n 4.22517e-19
+cc_16 N_VSS!_c_16_n N_VDD!_c_27_n 0.00109796f
+cc_17 N_VSS!_MM1_s N_Z_MM1_d 0.00899139f
+cc_18 N_VSS!_c_16_n N_Z_MM1_d 0.0131827f
+cc_19 N_VDD!_MM0_s N_Z_MM1_d 0.00899139f
+cc_20 N_VDD!_c_27_n N_Z_MM1_d 0.00547035f

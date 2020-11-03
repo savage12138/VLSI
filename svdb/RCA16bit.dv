@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/RCA16bit.dv
+dv_start matched                                  
+dv_cell {RCA16bit} {RCA16bit} matched
+dv_obj_count -transformed_nets {99 99} -transformed_inst {160 160} -transformed_port {52 52}
+dv_end

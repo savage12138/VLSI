@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='O-2018.09-SP1 linux64' PARAM_COUNT=0
+.TITLE 'aoi21_1x hspice simulation deck'
+ outputrisedelay1 outputrisedelay2 outputrisedelay3 temper          
+ alter#          
+  1.12407e-11      1.12407e-11      1.12407e-11       25.000000     
+1               

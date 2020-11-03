@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1590121821 1590121823
+lvs_ExtOutFile RUNDIR /home/ywang3325/Desktop/ece3150
+lvs_ExtOutFile RULES_FILE /home/ywang3325/Desktop/ece3150/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 67 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/ywang3325/Desktop/ece3150/RCA16bit.sp
+lvs_ExtOutFile EXTRACTION_REPORT RCA16bit.lvs.report.ext

@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1580492632 1580492633
+lvs_ExtOutFile RUNDIR /nethome/ywang3325/ece3150
+lvs_ExtOutFile RULES_FILE /nethome/ywang3325/ece3150/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /nethome/ywang3325/ece3150/oai22_1x.sp
+lvs_ExtOutFile EXTRACTION_REPORT oai22_1x.lvs.report.ext

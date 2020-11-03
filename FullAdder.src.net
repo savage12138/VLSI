@@ -1,0 +1,54 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  Lab3Part1
+* Top Cell Name: FullAdder
+* View Name:     schematic
+* Netlisted on:  Apr  9 21:29:57 2020
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: Lab3Part1
+* Cell Name:    FullAdder
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT FullAdder A B Cin Cout GND SUM VDD
+*.PININFO A:I B:I Cin:I GND:I VDD:I Cout:O SUM:O
+MM29 SUM SUM_INV GND GND NMOS_VTL W=90n L=50n m=1
+MM18 net019 Cin SUM_INV GND NMOS_VTL W=180.0n L=50n m=1
+MM17 SUM_INV B net019 GND NMOS_VTL W=180.0n L=50n m=1
+MM16 SUM_INV A net019 GND NMOS_VTL W=180.0n L=50n m=1
+MM15 GND Cin_INV net019 GND NMOS_VTL W=180.0n L=50n m=1
+MM14 net044 A GND GND NMOS_VTL W=540.0n L=50n m=1
+MM13 net043 B net044 GND NMOS_VTL W=540.0n L=50n m=1
+MM12 net019 Cin net043 GND NMOS_VTL W=540.0n L=50n m=1
+MM11 Cout Cin_INV GND GND NMOS_VTL W=90n L=50n m=1
+MM4 GND B net17 GND NMOS_VTL W=360.0n L=50n m=1
+MM3 net17 A net8 GND NMOS_VTL W=360.0n L=50n m=1
+MM2 net8 Cin GND GND NMOS_VTL W=180.0n L=50n m=1
+MM1 net8 B Cin_INV GND NMOS_VTL W=180.0n L=50n m=1
+MM0 Cin_INV A net8 GND NMOS_VTL W=180.0n L=50n m=1
+MM28 SUM SUM_INV VDD VDD PMOS_VTL W=180.0n L=50n m=1
+MM25 net026 Cin SUM_INV VDD PMOS_VTL W=360.0n L=50n m=1
+MM24 net026 B SUM_INV VDD PMOS_VTL W=360.0n L=50n m=1
+MM23 SUM_INV A net026 VDD PMOS_VTL W=360.0n L=50n m=1
+MM22 VDD Cin_INV net026 VDD PMOS_VTL W=360.0n L=50n m=1
+MM21 SUM_INV Cin net041 VDD PMOS_VTL W=540.0n L=50n m=1
+MM20 net041 B net042 VDD PMOS_VTL W=540.0n L=50n m=1
+MM19 net042 A VDD VDD PMOS_VTL W=540.0n L=50n m=1
+MM10 Cout Cin_INV VDD VDD PMOS_VTL W=180.0n L=50n m=1
+MM9 Cin_INV A net15 VDD PMOS_VTL W=360.0n L=50n m=1
+MM8 net15 B Cin_INV VDD PMOS_VTL W=360.0n L=50n m=1
+MM7 VDD Cin net15 VDD PMOS_VTL W=360.0n L=50n m=1
+MM6 net16 A VDD VDD PMOS_VTL W=360.0n L=50n m=1
+MM5 Cin_INV B net16 VDD PMOS_VTL W=360.0n L=50n m=1
+.ENDS
+

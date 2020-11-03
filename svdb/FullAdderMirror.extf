@@ -1,0 +1,10 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1586656343 1586656345
+lvs_ExtOutFile RUNDIR /home/ywang3325/Desktop/ece3150
+lvs_ExtOutFile RULES_FILE /home/ywang3325/Desktop/ece3150/_calibrexRC.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 4 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/ywang3325/Desktop/ece3150/svdb/FullAdderMirror.sp
+lvs_ExtOutFile EXTRACTION_REPORT FullAdderMirror.lvs.report.ext
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/FullAdderMirror.pdsp }

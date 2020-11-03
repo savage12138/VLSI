@@ -1,0 +1,27 @@
+//
+//  Rule file generated on Sun Apr 12 02:35:53 EDT 2020
+//     by Calibre Interactive - DRC (v2017.3_29.23)
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH  "RCA16bit.calibre.db"
+LAYOUT PRIMARY "RCA16bit"
+LAYOUT SYSTEM GDSII
+
+DRC RESULTS DATABASE "RCA16bit.drc.results" ASCII 
+DRC MAXIMUM RESULTS 1000
+DRC MAXIMUM VERTEX 4096
+
+DRC CELL NAME NO
+DRC SUMMARY REPORT "RCA16bit.drc.summary" REPLACE HIER
+
+VIRTUAL CONNECT COLON NO
+VIRTUAL CONNECT REPORT NO
+
+DRC ICSTATION YES
+
+
+INCLUDE "/tools/cadence/FreePDK4514/ncsu_basekit/techfile/calibre/calibreDRC.rul"
+

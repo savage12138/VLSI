@@ -1,0 +1,32 @@
+* File: aoi21_1x.pex.netlist
+* Created: Thu Apr  2 14:00:13 2020
+* Program "Calibre xRC"
+* Version "v2017.3_29.23"
+* 
+.include "aoi21_1x.pex.netlist.pex"
+.subckt aoi21_1x  F A B C VSS! VDD!
+* 
+* VDD!	VDD!
+* VSS!	VSS!
+* C	C
+* B	B
+* A	A
+* F	F
+MM0 N_VSS!_MM0_d N_A_MM0_g N_F_MM0_s N_VSS!_MM0_b NMOS_VTL L=5e-08 W=9e-08
++ AD=2.16e-14 AS=1.35e-14 PD=6.8e-07 PS=4.8e-07
+MM1 NET26 N_B_MM1_g N_VSS!_MM0_d N_VSS!_MM0_b NMOS_VTL L=5e-08 W=1.8e-07
++ AD=2.88e-14 AS=2.16e-14 PD=6.8e-07 PS=6.8e-07
+MM2 N_F_MM2_d N_C_MM2_g NET26 N_VSS!_MM0_b NMOS_VTL L=5e-08 W=1.8e-07 AD=2.7e-14
++ AS=2.88e-14 PD=6.6e-07 PS=6.8e-07
+MM3 N_NET23_MM3_d N_A_MM3_g N_F_MM3_s N_VDD!_MM3_b PMOS_VTL L=5e-08 W=3.6e-07
++ AD=5.76e-14 AS=5.4e-14 PD=1.04e-06 PS=1.02e-06
+MM5 N_NET23_MM3_d N_B_MM5_g N_VDD!_MM5_s N_VDD!_MM3_b PMOS_VTL L=5e-08 W=3.6e-07
++ AD=5.76e-14 AS=5.76e-14 PD=1.04e-06 PS=1.04e-06
+MM4 N_VDD!_MM5_s N_C_MM4_g N_NET23_MM4_s N_VDD!_MM3_b PMOS_VTL L=5e-08 W=3.6e-07
++ AD=5.76e-14 AS=5.4e-14 PD=1.04e-06 PS=1.02e-06
+*
+.include "aoi21_1x.pex.netlist.AOI21_1X.pxi"
+*
+.ends
+*
+*

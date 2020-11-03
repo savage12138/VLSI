@@ -1,0 +1,32 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  sandbox
+* Top Cell Name: inv_1x
+* View Name:     schematic
+* Netlisted on:  Mar  6 11:45:55 2020
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL vdd!
++        vss!
+
+*.PIN vdd!
+*+    vss!
+
+************************************************************************
+* Library Name: sandbox
+* Cell Name:    inv_1x
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inv_1x a vdd! vss! z
+*.PININFO a:I vdd!:I vss!:I z:O
+MM0 z a vdd! vdd! PMOS_VTL W=180n L=50n
+MM1 z a vss! vss! NMOS_VTL W=90n L=50n
+.ENDS
+

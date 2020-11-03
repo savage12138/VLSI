@@ -1,0 +1,23 @@
+if ( $?LD_LIBRARY_PATH != 1 ) then
+    setenv LD_LIBRARY_PATH ""
+endif
+
+source /tools/cadence/FreePDK4514/ncsu_basekit/cdssetup/setup617.csh
+source /tools/cadence/FreePDK4514/ncsu_basekit/cdssetup/icoa617_setup.csh
+source /tools/cadence/ic617newer/cshrc.64gg495bitRH6
+
+
+#source /tools/synopsys/hspice/O-2018.09-SP1/cshrc.meta
+#source /tools/synopsys/custom/o201809sp1/cshrc.meta
+#source /tools/linsoft2/synopsys/waveview/cshrc.meta
+
+
+#source /tools/synopsys/wv/P-2019.06-SP1-1/cshrc.wv
+setenv SNPSLMD_LICENSE_FILE 1910@ece-winlic.ece.gatech.edu
+
+
+setenv CDS_Netlisting_Mode Analog
+
+set LABDIR = "$cwd"
+setenv PDK_DIR $LABDIR/FreePDK45
+setenv LAB_DIR $LABDIR

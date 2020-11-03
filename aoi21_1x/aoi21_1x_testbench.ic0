@@ -1,0 +1,64 @@
+* "simulator" "HSPICE" 
+* "version" "O-2018.09-SP1 linux64"
+* "format" "HSP"
+* "rundate" "17:07:05 03/18/2020 "
+* "netlist" "aoi21_1x_testbench.sp "
+* "runtitle" "aoi21_1x hspice simulation deck"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-18       
+.nodeset
++ a =   0.9000        
++ b =   0.9000        
++ c =   0.9000        
++ f = 7.588e-06       
++ vdd! =   0.9000        
++ vss! =   0.            
++ xaoi21_1x.n_a_c_32_n =   0.9000        
++ xaoi21_1x.n_a_mm0_g =   0.9000        
++ xaoi21_1x.n_a_mm3_g =   0.9000        
++ xaoi21_1x.n_b_c_72_n =   0.9000        
++ xaoi21_1x.n_b_mm1_g =   0.9000        
++ xaoi21_1x.n_b_mm5_g =   0.9000        
++ xaoi21_1x.n_c_c_95_n =   0.9000        
++ xaoi21_1x.n_c_mm2_g =   0.9000        
++ xaoi21_1x.n_c_mm4_g =   0.9000        
++ xaoi21_1x.n_f_c_2_p = 7.363e-06       
++ xaoi21_1x.n_f_mm0_s = 7.583e-06       
++ xaoi21_1x.n_f_mm2_d = 7.143e-06       
++ xaoi21_1x.n_f_mm3_s = 7.601e-06       
++ xaoi21_1x.n_net23_c_44_n =   0.8500        
++ xaoi21_1x.n_net23_c_46_n =   0.8500        
++ xaoi21_1x.n_net23_c_48_n =   0.8500        
++ xaoi21_1x.n_net23_mm3_d =   0.8500        
++ xaoi21_1x.n_net23_mm4_s =   0.8500        
++ xaoi21_1x.n_vdd!_c_121_n =   0.9000        
++ xaoi21_1x.n_vdd!_c_130_n =   0.9000        
++ xaoi21_1x.n_vdd!_mm3_b =   0.9000        
++ xaoi21_1x.n_vdd!_mm5_s =   0.9000        
++ xaoi21_1x.n_vss!_c_104_n = 9.197e-09       
++ xaoi21_1x.n_vss!_c_106_n = 1.090e-08       
++ xaoi21_1x.n_vss!_mm0_b = 1.116e-08       
++ xaoi21_1x.n_vss!_mm0_d = 1.648e-08       
++ xaoi21_1x.net26 = 3.841e-06       
++ xaoi21_1x.x_pm_aoi21_1x_f.5 = 7.368e-06       
++ xaoi21_1x.x_pm_aoi21_1x_f.6 = 7.586e-06       
++ xaoi21_1x.x_pm_aoi21_1x_f.10 = 7.145e-06       
++ xaoi21_1x.x_pm_aoi21_1x_a.1 =   0.9000        
++ xaoi21_1x.x_pm_aoi21_1x_a.5 =   0.9000        
++ xaoi21_1x.x_pm_aoi21_1x_net23.4 =   0.8500        
++ xaoi21_1x.x_pm_aoi21_1x_b.1 =   0.9000        
++ xaoi21_1x.x_pm_aoi21_1x_b.5 =   0.9000        
++ xaoi21_1x.x_pm_aoi21_1x_c.1 =   0.9000        
++ xaoi21_1x.x_pm_aoi21_1x_c.5 =   0.9000        
++ xaoi21_1x.x_pm_aoi21_1x_vss!.9 = 1.035e-08       
++ xaoi21_1x.x_pm_aoi21_1x_vss!.14 = 1.015e-08       
++ xaoi21_1x.x_pm_aoi21_1x_vss!.15 = 1.094e-08       
++ xaoi21_1x.x_pm_aoi21_1x_vss!.20 = 1.012e-08       
++ xaoi21_1x.x_pm_aoi21_1x_vdd!.9 =   0.9000        
++ xaoi21_1x.x_pm_aoi21_1x_vdd!.14 =   0.9000        
++ xaoi21_1x.x_pm_aoi21_1x_vdd!.15 =   0.9000        
++ xaoi21_1x.x_pm_aoi21_1x_vdd!.20 =   0.9000        
+***   END: Saved Operating Point ***                     

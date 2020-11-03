@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/aoi21_1x.dv
+dv_start matched                                  
+dv_cell {aoi21_1x} {aoi21_1x} matched
+dv_obj_count -transformed_nets {6 6} -transformed_inst {3 3} -transformed_port {6 6}
+dv_end

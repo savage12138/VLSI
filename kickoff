@@ -1,0 +1,4 @@
+source /tools/cadence/icoa617_setup.csh
+source /tools/cadence/cshrc.HOMEnew
+source /tools/cadence/meta29.cshrc
+virtuoso &
